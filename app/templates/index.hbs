@@ -1,1 +1,6 @@
 {{outlet}}
+<div class="">
+  {{#each model as |question|}}
+    {{question-tile question=question destroyQuest="destroyQuest"}}
+  {{/each}}
+</div>

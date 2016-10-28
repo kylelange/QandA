@@ -1,7 +1,12 @@
 { "questions": [{
   "name": "Arlo Rune",
-  "question": "How many times do you fold biscuit dough before cutting it into shapes for baking?",
+  "quest": "How many times do you fold biscuit dough before cutting it into shapes for baking?",
   "type": "Baking",
   "date": "October 28th, 2016"
-  }]
+  }, {
+    "name": "Karen Lynn",
+    "quest": "Why do I think my cat is so cute?",
+    "type": "Animal",
+    "date": "October 28th, 2016"
+    }]
 }

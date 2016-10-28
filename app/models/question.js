@@ -2,7 +2,7 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   name: DS.attr(),
-  question: DS.attr(),
+  quest: DS.attr(),
   type: DS.attr(),
   date: DS.attr()
 });
