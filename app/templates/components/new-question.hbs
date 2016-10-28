@@ -1,0 +1,29 @@
+{{#if addNewQuest}}
+  <h3>Write a new question here:</h3>
+  <div>
+    <form {{action 'saveQuest' on='submit'}}>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="quest">Your Question</label>
+        {{input value=quest id="quest" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="type">Catagory of question (e.g cooking, music)</label>
+        {{input value=type id="type" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date</label>
+        {{input value=date id="date" required="required"}}
+      </div>
+      <button>Save Question</button>
+    </form>
+  </div>
+{{else}}
+  <button{{action 'questFormShow'}}>New Question</button>
+{{/if}}
