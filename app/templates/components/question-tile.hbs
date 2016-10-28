@@ -1,6 +1,7 @@
 <div>
-  <h3>A question from: {{question.name}}</h3>
-  <h4>{{question.quest}}?</h4>
-  <button {{action 'delete' question}}>Delete Question</button>
+  <h5>A question from: {{question.name}}</h5>
+  <h3>{{question.quest}}</h3>
+  {{update-question question=question update="update"}}
+  <button class="button" {{action 'delete' question}}>Delete Question</button>
   <hr>
 </div>

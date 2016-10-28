@@ -1,0 +1,30 @@
+{{#if updateTileForm}}
+  <h3>Want to update your question, {{question.name}}?</h3>
+  <div class="updateForm">
+    <form>
+      <div class="updateProp">
+        <label for="name">Name:</label>
+        {{input value="name" id="name" placeholder=question.name}}
+      </div>
+
+      <div class="updateProp">
+        <label for="quest">Your Question:</label>
+        {{input value="quest" id="quest" placeholder=question.quest}}
+      </div>
+
+      <div class="updateProp">
+        <label for="type">Question Type:</label>
+        {{input value="type" id="type" placeholder=question.type}}
+      </div>
+
+      <div class="updateProp">
+        <label for="date">Date:</label>
+        {{input value="date" id="date" placeholder=question.date}}
+      </div>
+
+    <button class="button" {{action 'update' question}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="button" {{action 'updateTileForm'}}>Update Question</button>
+{{/if}}
