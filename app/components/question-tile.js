@@ -9,7 +9,7 @@ export default Ember.Component.extend({
     },
 
     update(question, params) {
-      this.send('update', question, params);
+      this.sendAction('update', question, params);
     }
   }
 });
