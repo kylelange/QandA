@@ -1,7 +1,5 @@
 <div>
-  <h5>A question from: {{question.name}}</h5>
-  <h3>{{question.quest}}</h3>
-  {{update-question question=question update="update"}}
-  <button class="button" {{action 'delete' question}}>Delete Question</button>
+  <h5>a question from | {{question.name}}</h5>
+  <h3>{{#link-to 'question-segment' question.id}}{{question.quest}}{{/link-to}}</h3>
   <hr>
 </div>
