@@ -28,9 +28,12 @@ export default Ember.Route.extend({
       question.get('answers').addObject(newAnswer);
       newAnswer.save().then(function(){
         return question.save();
-        console.log(newAnswer);
       });
       this.transitionTo('question-segment', question);
+    },
+    destroyAnswer(answer) {
+      answer.destroyRecord();
+      this.transitionTo('question-segment');
     }
   }
 });

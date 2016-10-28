@@ -6,7 +6,7 @@
   <h5>Toutes les r&eacute;ponses!!!</h5>
   <div class="">
     {{#each question.answers as |answer|}}
-      {{answer-tile answer=answer}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
     {{/each}}
   </div>
 
