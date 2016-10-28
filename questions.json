@@ -8,5 +8,9 @@
     "quest": "Why do I think my cat is so cute?",
     "type": "Animal",
     "date": "October 28th, 2016"
-    }]
+  }],
+  "answers": [{
+  "author": "Kyle Aaron",
+  "ans": "Ten times should do.  If you fold the dough more than that, there will not be enough air to make the biscuit flaky."  
+  }]
 }
