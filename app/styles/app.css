@@ -6,6 +6,10 @@ hr {
   border-color: firebrick;
 }
 
+h1,h3,h4 {
+  font-family: 'Monda', sans-serif;
+}
+
 h5 {
   font-size: 1.1em;
   margin-left: 20px;
@@ -22,6 +26,7 @@ button {
   font-weight: bold;
   font-size: 1.1em;
   letter-spacing: 3px;
+  font-family: 'Monda', sans-serif;
 }
 
 .jumbotron {
