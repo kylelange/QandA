@@ -1,13 +1,13 @@
 {{outlet}}
+{{new-question saveQuest="saveQuest"}}
+<hr>
 <div class="">
   {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </div>
 
-{{new-question saveQuest="saveQuest"}}
 
-<hr>
 
 <!-- to be cut out later when many-to-one routing done.  This is jsut a placeholder to see if the route handling worked -->
 <h3>Toutes les r&eacute;ponses!!! (for those who hate questions)</h3>
@@ -16,3 +16,5 @@
     <li>{{answer.author}} | {{answer.ans}}</li>
   {{/each}}
 </ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
