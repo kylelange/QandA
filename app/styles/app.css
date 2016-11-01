@@ -1,3 +1,5 @@
+/*Universal Selectors:*/
+
 body {
   background-color: blanchedalmond;
 }
@@ -29,10 +31,9 @@ button {
   font-family: 'Monda', sans-serif;
 }
 
+/*Class Selectors*/
 .jumbotron {
   background-color: cadetblue;
 }
 
-.nav {
-
-}
+/*ID Selectors*/
