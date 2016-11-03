@@ -5,7 +5,7 @@
 
   <h5>Toutes les r&eacute;ponses!!!</h5>
   <div class="">
-    {{#each question.answers as |answer|}}
+    {{#each sortedAnswers as |answer|}} <!-- sorts answers alphabeticaly by author name -->
       {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
     {{/each}}
   </div>
