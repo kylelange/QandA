@@ -3,6 +3,9 @@
   <h5>from | {{question.name}} written on {{question.date}}</h5>
   <h3>{{question.quest}}</h3>
 
+{{new-answer question=model saveAnswer="saveAnswer"}}
+<button class="button" {{action 'saveQuestion' question.quest}}>Save Question</button>
+
   <h5>Toutes les r&eacute;ponses!!!</h5>
   <div class="">
     {{#each sortedAnswers as |answer|}} <!-- sorts answers alphabeticaly by author name -->
@@ -10,5 +13,7 @@
     {{/each}}
   </div>
 
+  {{update-question question=model update="update"}}
   <button class="button" {{action 'delete' question}}>Delete Question</button>
+
 </div>
