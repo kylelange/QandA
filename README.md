@@ -13,6 +13,19 @@ _This project will:_
 * _Persist data with models, Ember Data and Firebase._
 * _Manipulate data between models and templates using components._
 
+## _Week Four Requirements (pages where these are used are added INSIDE each requirement):_
+
+* Writing and calling custom helpers to quickly format data.
+    * unanswered-question.js: any question w/out an answer is given a string heading- UNANSWERED
+* Combining or cross-referencing multiple pieces of data into single, easier-to-access properties with computed properties.
+    * answer-tile.js/hbs is given a computed property (computedAnswer) to combine a user's name and answer in a display.
+* Sorting and organizing data with computed properties.
+    * question-detail.js has a computed property to list user answers in alphabetical order by name
+* Using Ember Services to allow a user to save questions.
+    question-service.js allows a user to save a question on a new route (savedquestions.js/hbs).
+* Nested Routing
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
