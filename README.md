@@ -23,7 +23,8 @@ _This project will:_
     * _question-detail.js has a computed property to list user answers in alphabetical order by name._
 * _Using Ember Services to allow a user to save questions_
     _question-service.js allows a user to save a question on a new route (savedquestions.js/hbs)._
-
+* _Querying our Firebase data store_
+  _unansweredonly.js/hbs filters the unanswered questions to the top of the page._
 
 ## Prerequisites
 
