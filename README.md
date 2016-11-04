@@ -15,15 +15,14 @@ _This project will:_
 
 ## _Week Four Requirements (pages where these are used are added INSIDE each requirement):_
 
-* Writing and calling custom helpers to quickly format data.
-    * unanswered-question.js: any question w/out an answer is given a string heading- UNANSWERED
-* Combining or cross-referencing multiple pieces of data into single, easier-to-access properties with computed properties.
-    * answer-tile.js/hbs is given a computed property (computedAnswer) to combine a user's name and answer in a display.
-* Sorting and organizing data with computed properties.
-    * question-detail.js has a computed property to list user answers in alphabetical order by name
-* Using Ember Services to allow a user to save questions.
-    question-service.js allows a user to save a question on a new route (savedquestions.js/hbs).
-* Nested Routing
+* _Writing and calling custom helpers to quickly format data_
+    * _unanswered-question.js: any question w/out an answer is given a string heading- UNANSWERED._
+* _Combining or cross-referencing multiple pieces of data into single, easier-to-access properties with computed properties_
+    * _answer-tile.js/hbs is given a computed property (computedAnswer) to combine a user's name and answer in a display._
+* _Sorting and organizing data with computed properties_
+    * _question-detail.js has a computed property to list user answers in alphabetical order by name._
+* _Using Ember Services to allow a user to save questions_
+    _question-service.js allows a user to save a question on a new route (savedquestions.js/hbs)._
 
 
 ## Prerequisites
