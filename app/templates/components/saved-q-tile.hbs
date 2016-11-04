@@ -1,7 +1,8 @@
 <h3>Questions you have saved:</h3>
 {{#each questionService.savedQs as |savedQ|}}
   <h4>{{savedQ}}</h4>
+  {{!-- <h4>{{#link-to 'question-segment' question.id}}{{savedQ}}{{/link-to}}</h4> --}}
 {{/each}}
 
 {{!-- this test button was used to make sure the information from the Service was getting through. Lesson learned: I can only use a service on another component, NOT a route. --}}
-<button {{action 'test'}}>TEST</button>
+<h4><button {{action 'test'}}>TEST</button></h4>
