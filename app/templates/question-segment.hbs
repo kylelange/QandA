@@ -1,3 +1,5 @@
 <h3>Can you answer this question from {{model.name}}?</h3>
-
+{{new-answer question=model saveAnswer="saveAnswer"}}
 {{question-detail question=model destroyQuest="destroyQuest" destroyAnswer="destroyAnswer"}}
+{{update-question question=model update="update"}}
+<hr>
