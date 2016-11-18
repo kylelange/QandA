@@ -4,6 +4,8 @@
 
 #### By _**Kyle Lange**_
 
+![screenshot](Screen Shot.png)
+
 ## Description
 
 _This project will:_
@@ -78,6 +80,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 ## Known Bugs
 
   _{no known bugs at this time}_
+
+  ## Support and contact details
+
+  For questions, concerns, or suggestions please email baronsintrees@gmail.com
 
 
 ## Technologies Used
