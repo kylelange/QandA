@@ -4,7 +4,7 @@
 
 #### By _**Kyle Lange**_
 
-![screenshot](Screen Shot.png)
+![screenshot](quelle-screen.png)
 
 ## Description
 
